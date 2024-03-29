@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Setting the --inter variable to "InterVariable"
-    document.body.style.setProperty('--inter', 'InterVariable');
+    document.body.style.setProperty('--inter', 'Inter');
 
     ["--heading-font-font-family", "--body-font-font-family", "--meta-font-font-family"].forEach((c, i) => {
         let e = document.getElementsByClassName(["sqs-heading-font", "sqs-body-font", "sqs-meta-font"][i])[0],
